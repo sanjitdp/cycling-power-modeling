@@ -1,0 +1,99 @@
+Rider profile (Climber):
+
+rider_weight (lbs) = 165;
+bike_weight (lbs) = 17;
+frontal_area (m^2) = 5.5;
+drag_coefficient = 0.6;
+loss_dt (percentage) = 2;
+head_wind (mph) = 0;
+C_rr (coefficient of rolling resistance) = 0.005;
+rho (lb/ft^3) = 0.08;
+elevation_assistance: 300 * elevation_grade;
+
+TOKYO OLYMPICS 2022 TRACK
+
+Optimized power function:
+
+4200 + 350 * sin(t) + 150 * sin(2t) + 50 * sin(3t)
+
+Time taken:
+
+81 minutes
+
+Average time (with 10% error, 100 iterations)
+
+81.0235 minutes
+
+Average time (with 50% error, 100 iteration)
+
+107.5412 minutes
+
+UCI FLANDERS 2021 TRACK
+
+Optimized power function:
+
+4200 + 150 * sin(t) + 80 * sin(2t) + 60 * sin(3t)
+
+Time taken:
+
+83 minutes
+
+Average time (with 10% error, 100 iterations)
+
+84.2235 minutes
+
+Average time (with 50% error, 100 iteration)
+
+84.5882 minutes
+
+
+
+
+
+Rider profile (Rouleur):
+
+rider_weight (lbs) = 180;
+bike_weight (lbs) = 15;
+frontal_area (m^2) = 5.5;
+drag_coefficient = 0.6;
+loss_dt (percentage) = 2;
+head_wind (mph) = 0;
+C_rr (coefficient of rolling resistance) = 0.004;
+rho (lb/ft^3) = 0.08;
+elevation_assistance: 100 * elevation_grade;
+
+TOKYO OLYMPICS 2022 TRACK
+
+Optimized power function:
+
+4100 + 800 * sin(t) + 500 * sin(2t) + 400 * sin(3t)
+
+Time taken:
+
+82 minutes
+
+Average time (with 10% error, 100 iterations)
+
+82 minutes
+
+Average time (with 50% error, 100 iteration)
+
+84.194 minutes
+
+UCI FLANDERS 2021 TRACK
+
+Optimized power function:
+
+4170 + 150 * sin(t) +  * sin(2t) + 60 * sin(3t)
+
+Time taken:
+
+84 minutes
+
+Average time (with 10% error, 100 iterations)
+
+84.4118 minutes
+
+Average time (with 50% error, 100 iteration)
+
+84.5059 minutes
